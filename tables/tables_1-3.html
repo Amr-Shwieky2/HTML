@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!DOCTYPE html>
+
+    <title>Student Grades</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #ccc;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        td.grade {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Student Grades</h2>
+    <table>
+        <tr>
+            <th>Student Name</th>
+            <th colspan="3">Grades</th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th>Math</th>
+            <th>Science</th>
+            <th>History</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td class="grade">95</td>
+            <td class="grade">87</td>
+            <td class="grade">92</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td class="grade">88</td>
+            <td class="grade">93</td>
+            <td class="grade">90</td>
+        </tr>
+        <tr>
+            <td>Michael Johnson</td>
+            <td class="grade">92</td>
+            <td class="grade">85</td>
+            <td class="grade">88</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
