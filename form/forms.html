@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form test</title>
+</head>
+<body>
+    <h2><strong>Create an Account</strong></h2>
+    <form>
+        <div>
+            <label for="email">Email: </label><br>
+            <input type="text" id="email" name="email"placeholder="Enter your email" required>
+        </div><br>
+        <div>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter a password" required>
+        </div><br>
+        <div>
+            <label for="age"> Age:</label><br>
+            <input type="number" id="age" name="age" min="0"  placeholder="Select Age" required>
+        </div><br>
+        <div>
+            <label for="massage">Tell us a little about yourself:</label><br>
+            <textarea  id="massage" name="massage" rows="5" cols="50"  required></textarea>  
+        </div><br>
+        <div>
+            <label for="agree">
+                <input type="checkbox" id="agree" name="agree" value="q">
+                I agree to the <u style="color: blue;">terms of service</u>
+            </label>
+        </div><br>
+        <div>
+            <button type="submit">Sign Up</button>
+        </div>
+    </form>
+</body>
+</html>
