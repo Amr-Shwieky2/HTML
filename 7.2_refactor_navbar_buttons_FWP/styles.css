@@ -1,0 +1,72 @@
+body {
+    background-image: url("https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?cs=srgb&dl=pexels-guillaume-meurice-1591447.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Ubuntu", sans-serif;
+}
+  
+p {
+    color: cornflowerblue;
+    font-size: 125%;
+    max-width: 700px;
+    margin-top: 10px;
+    border: 2px solid palevioletred;
+    padding: 10px;
+
+}
+
+h1, h2 {
+  margin-left: 500px;
+    color: black;
+    font-size: 200%;
+    font-style: italic;
+}
+img{
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  float: left;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: #333333;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  background-color: #555555;
+}
+
+.my-button {
+  background-color: #4CAF50;
+  color: white;
+  border: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  /* text-decoration: none; */
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: #45a049;
+}
