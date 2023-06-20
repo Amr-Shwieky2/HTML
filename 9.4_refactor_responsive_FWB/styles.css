@@ -1,0 +1,126 @@
+body {
+  background-image: url("https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?cs=srgb&dl=pexels-guillaume-meurice-1591447.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Ubuntu", sans-serif;
+}
+
+p {
+  color: cornflowerblue;
+  font-size: 125%;
+  max-width: 700px;
+  margin: 20px;
+  border: 2px solid #555555;
+  padding: 30px;
+}
+
+h1, h2 {
+  color: black;
+  font-size: 200%;
+  font-style: italic;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  float: left;
+  margin: 10px;
+}
+
+nav {
+  background-color: #333333;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  background-color: #555555;
+}
+
+.my-button {
+  background-color: #4CAF50;
+  color: white;
+  border: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  /* text-decoration: none; */
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive CSS */
+
+@media only screen and (max-width: 768px) {
+  /* Adjustments for small devices */
+  h1, h2 {
+      margin-left: 0;
+      text-align: center;
+  }
+
+  img {
+      float: none;
+      margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* Adjustments for extra small devices */
+  h1 {
+      font-size: 150%;
+  }
+
+  h2 {
+      font-size: 175%;
+  }
+
+  p {
+      font-size: 110%;
+  }
+
+  .my-button {
+      font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  /* Adjustments for ultra small devices */
+  h1 {
+      font-size: 130%;
+  }
+
+  h2 {
+      font-size: 150%;
+  }
+
+  p {
+      font-size: 100%;
+  }
+
+  .my-button {
+      font-size: 16px;
+  }
+}

@@ -9,9 +9,9 @@ p {
     color: cornflowerblue;
     font-size: 125%;
     max-width: 700px;
-    margin-top: 10px;
-    border: 2px solid palevioletred;
-    padding: 10px;
+    margin: 20px;
+    border: 2px solid #555555;
+    padding: 30px;
 
 }
 
@@ -22,11 +22,12 @@ h1, h2 {
     font-style: italic;
 }
 img{
+  
   width: 200px;
   height: 200px;
-  padding: 2px;
+  padding: 20px;
   float: left;
-  margin-right: 20px;
+  margin: 10px;
 }
 
 nav {
