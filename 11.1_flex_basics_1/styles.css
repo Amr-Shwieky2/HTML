@@ -1,0 +1,23 @@
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+}
