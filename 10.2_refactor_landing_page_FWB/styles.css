@@ -1,0 +1,177 @@
+/* Reset default styles */
+html, body, h1, h2, p, ul, li, form, input, textarea, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+header {
+  background-color: #333333;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  background-color: #555555;
+}
+
+.main {
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #f0f0f0;
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #666666;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  transition-duration: 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #45a049;
+}
+
+.features {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.features h2 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+.feature {
+  margin-bottom: 40px;
+}
+
+.feature img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 20px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #666666;
+}
+
+.testimonial {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #f0f0f0;
+}
+
+.testimonial h2 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+.quote {
+  margin-bottom: 40px;
+}
+
+.quote p {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+.quote cite {
+  font-size: 14px;
+  color: #999999;
+}
+
+.contact {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.contact h2 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact input,
+.contact textarea {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #999999;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #333333;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
