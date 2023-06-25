@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .cool-border{
+            width: 350px;
+            height: 350px;
+            background-color: black;
+            /* color: white; */
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 5px solid red;
+            /* position: relative; */
+        }
+        .box::after{
+            content: " ";
+            width: 100%;
+            height: 50%;
+            position: absolute;
+            top: 25%;
+            left: -0.5px;
+            background-color: black;
+            /* border: 5px solid red; */
+        }
+        .box::before{
+            content: " ";
+            width: 50%;
+            height: 100%;
+            position: absolute;
+            top: -0.5px;
+            left: 25%;
+            background-color: black;
+            /* border: 5px solid red; */
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="cool-border">
+       <div class="box">        
+        </div>
+        
+         
+    </div>
+      
+</body>
+</html>

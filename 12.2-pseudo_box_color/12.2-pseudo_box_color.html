@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box</title>
+    <style>
+        body{
+            display: flex;
+            height: 100vh;
+            justify-self: center;
+            align-items: center;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            position: relative;
+            background-color: bisque
+        }
+
+        .box::after,
+        .box::before
+        {
+            content: '';
+            width: 50%;
+            height: 100%;
+            position: absolute;
+        }
+
+        .box::before{
+            
+            /* left: 0; */
+            background-color: purple; 
+        }
+        .box::after{
+            right: 0;
+            /* height: 50%; */
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
