@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15.3_responsive_grid</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: darkgray;
+        color: white;
+        font-size: 18px;
+    }
+    .grid{
+        display: grid;
+        padding: 5px;
+        gap: 1em;
+    }
+    .Header{
+        background-color: red;
+        border-radius: 30px;
+        grid-column: 1 / span 3;
+    }
+    .Sidebar{
+        background-color: blue;
+        border-radius: 30px;
+       
+    }
+    .Content{
+        background-color: green;
+        border-radius: 30px;
+        
+    }
+    .Sidebar2{
+        background-color: blueviolet;
+        border-radius: 30px;
+       
+    }
+    .Footer{
+        background-color: yellow;
+        border-radius: 30px;
+        grid-column: 1 / span 3;
+    }
+
+    @media (max-width: 768px) {
+        .grid {
+            grid-template-columns: 1fr;
+        }
+        .Header,
+        .Sidebar2,
+        .Footer {
+            grid-column: 1 / span 2;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .grid {
+            grid-template-rows: auto;
+        }
+        .Header,
+        .Sidebar2,
+        .Footer {
+            grid-column: 1 / span 1;
+        }
+    }
+</style>
+<body>
+    <div class="grid">
+        <div class="Header">
+            <h2>Header</h2>
+        </div>
+        <div class="Sidebar">
+            <h2>Sidebar</h2>
+        </div>
+        <div class="Content">
+            <h2>Content</h2>
+            <p>More content than we had before so this column is quite tall</p>
+        </div>
+        <div class="Sidebar2">
+            <h2>Sidebar 2</h2>
+        </div>
+        <div class="Footer">
+            <h2>Footer</h2>
+        </div>
+    </div>
+</body>
+</html>
